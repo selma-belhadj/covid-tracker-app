@@ -1,12 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Template as a setup for React projects
+# Covid Tracker
 
 
-> Set up a React web app as a template for projects.
-- You can use this template as a setup for your React projects 
-- This template include the most important linters, Linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs 
-
+> This React capstone projectvis about building a mobile web application to check a list of metrics (numeric values) making use of React and Redux.
 
 
 ## Built With
