@@ -25,3 +25,20 @@ code {
     'Courier New',
     monospace;
 }
+
+:root {
+  --header-color: #ffa500;
+  --bg-color: #d18700;
+  --primary-color: #e3ae09;
+  --secondary-color: #a36a00;
+  --dark-color: #754c00;
+  --hover-color: #ffc55c;
+}
+
+.footer {
+  background-color: var(--bg-color);
+  width: 100%;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
