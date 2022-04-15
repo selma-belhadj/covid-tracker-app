@@ -1,0 +1,60 @@
+.search-bar {
+  width: 76%;
+  margin: 3% 10%;
+  height: 30px;
+  padding: 5px;
+}
+
+.searchDiv {
+  background-color: var(--hover-color);
+  box-shadow: 0 10px 11px -2px var(--hover-color);
+}
+
+.titles-paragraph {
+  text-align: center;
+  margin: 0;
+  padding: 5px 10px;
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.countriesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+/* country card */
+
+.country-conainer {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: right;
+}
+
+.country-conainer:nth-child(3n),
+.country-conainer:nth-child(2),
+.country-conainer:nth-child(7) {
+  background-color: var(--hover-color);
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.arrowbtn {
+  align-self: flex-end;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.info p {
+  margin: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}

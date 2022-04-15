@@ -1,0 +1,32 @@
+
+.page-header {
+  display: flex;
+  height: 11rem;
+  background-color: var(--header-color);
+}
+
+.header-image {
+  flex: 50%;
+  margin: 20px;
+  margin-left: 15%;
+}
+
+.header-body {
+  flex: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+  font-family: 'Gill Sans', sans-serif;
+  margin-right: 10px;
+}
+
+.country-body > h2 {
+  font-size: 1rem;
+}
+
+.page-header .header-body h2 {
+  font-weight: 700;
+}

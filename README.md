@@ -1,22 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Template as a setup for React projects
+# Covid Tracker
 
 
-> Set up a React web app as a template for projects.
-- You can use this template as a setup for your React projects 
-- This template include the most important linters, Linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs 
+> An SPA web application for checking and tracking daily information about COVID 19 for all the countries of the world using React & Redux. The web app has several pages :
+>- Home page with a list of all countries that can be filtered by the country.
+>- Detail page for more detail about the country by clicking on it with the number of infected and deaths and also by regions in that country.
 
-
+![screencapture](./src/images/ScreenshotCovid19.png)
 
 ## Built With
 - HTML & CSS & JavaScript
 - Html, Css & JavaScript linters
 - React.Js
+- Redux
 
 ## Live Demo 
 
-[Live Demo Link](selmab-react-template.netlify.app)
+[Live Demo Link](https://selmab-covidtracker.netlify.app)
 
 
 ## Getting Started
@@ -25,9 +26,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 - clone the repository by running\
-    `git clone https://github.com/selma-belhadj/react-template.git`
+    `git clone https://github.com/selma-belhadj/CovidTracker.git`
 - navigate to the folder\
-    `cd math-magicians`
+    `cd CovidTracker`
 - Install packages\
     `npm install`
 - Run the app\
@@ -36,8 +37,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     `npm run eject`
 - Create build app\
     `npm run build`
-- Test Linters app\
-    `npm run check-linters`
+- run the tests app\
+    `npm run test`
 
 ## Authors
 
@@ -53,6 +54,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+
+## Acknowledgments
+
+- Original design idea by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) on Behance
 
 ## Show your support
 

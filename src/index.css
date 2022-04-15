@@ -14,6 +14,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-bottom: 5rem;
+  min-height: 100%;
 }
 
 code {
@@ -24,4 +27,49 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+:root {
+  --header-color: #ffa500;
+  --bg-color: #d18700;
+  --primary-color: #e3ae09;
+  --secondary-color: #a36a00;
+  --dark-color: #754c00;
+  --hover-color: #ffc55c;
+}
+
+.footer {
+  background-color: var(--bg-color);
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: auto;
+  padding: 1rem 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.icon-white {
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-div {
+  background-color: var(--header-color);
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
