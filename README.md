@@ -7,7 +7,7 @@
 >- Home page with a list of all countries that can be filtered by the country.
 >- Detail page for more detail about the country by clicking on it with the number of infected and deaths and also by regions in that country.
 
-![screencapture](./src/images/ScreenshotCovid.png)
+![screencapture](./src/images/ScreenshotCovid19.png)
 
 ## Built With
 - HTML & CSS & JavaScript
