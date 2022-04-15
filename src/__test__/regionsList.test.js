@@ -8,7 +8,6 @@ import ReactDOM from 'react-dom';
 import store from '../redux/configureStore';
 import Regions from '../components/regionsList';
 
-
 describe('Regions', () => {
   it('renders correctly', () => {
     const tree = render(<Provider store={store}><Router><Regions /></Router></Provider>);

@@ -9,7 +9,6 @@ import CountryCard from '../components/CountryCard';
 import store from '../redux/configureStore';
 import '@testing-library/jest-dom';
 
-
 test('renders cases', () => {
   const { getByText } = render(
     <Provider store={store}>
@@ -22,16 +21,14 @@ test('renders cases', () => {
   expect(getByText(/cases/i)).toBeInTheDocument();
 });
 
-
 it('renders without crushing', () => {
   const div = document.createElement('div');
   ReactDOM.render(
     <Router>
-     <CountryCard />
+      <CountryCard />
     </Router>, div,
   );
 });
-
 
 it('Test integration on click', () => {
   const { getByTestId } = render(
