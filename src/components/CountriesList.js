@@ -69,6 +69,7 @@ function Countries() {
           }
           return (
             <CountryCard
+              data-testid="CountryCard"
               key={country}
               country={countries[country].name}
               confirmed={countries[country].today_confirmed.toLocaleString()}
