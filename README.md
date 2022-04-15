@@ -59,6 +59,7 @@ Feel free to check the [issues page](../../issues/).
 ## Acknowledgments
 
 - Original design idea by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) on Behance
+- thanks to [Aimé Malaika](https://github.com/aimemalaika), I was able to get a lot of features done.
 
 ## Show your support
 
