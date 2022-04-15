@@ -1,0 +1,33 @@
+.pageHeader {
+  background-color: var(--header-color);
+  padding: 20px 15px;
+  cursor: pointer;
+}
+
+.RegionDetail {
+  background-color: var(--header-color);
+  padding: 20px 15px;
+}
+
+.DetailBorder {
+  border: 2px solid black;
+}
+
+.pageHeader .item {
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.pageHeader img {
+  width: 100%;
+}
+
+.pageHeader .data-sets {
+  text-align: right;
+}
+
+.pageHeader .data-sets .country_name {
+  margin: 0;
+  text-transform: uppercase;
+}

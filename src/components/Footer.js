@@ -9,16 +9,19 @@ const Footer = () => {
     textDecoration: 'underline',
   };
   return (
-    <div className="footer text-center">
-      Data gathered from
-      {' '}
-      <a href="https://covid19tracking.narrativa.com/index_en.html">Narrativa API</a>
-      <br />
-      Copyright &copy; Corona Tracker
-      <br />
-      Made by
-      <a href="https://github.com/selma-belhadj" style={link} target="_blank" rel="noreferrer">Selma</a>
+    <div className="footer-container">
+      <div className="footer text-center">
+        Data gathered from
+        {' '}
+        <a href="https://covid19tracking.narrativa.com/index_en.html">Narrativa API</a>
+        <br />
+        Copyright &copy; Corona Tracker
+        <br />
+        Made by
+        <a href="https://github.com/selma-belhadj" style={link} target="_blank" rel="noreferrer">Selma</a>
+      </div>
     </div>
+
   );
 };
 

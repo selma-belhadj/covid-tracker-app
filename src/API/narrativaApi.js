@@ -1,54 +1,14 @@
-// class NarrativaAPI {
-//   static baseURL = 'https://api.covid19tracking.narrativa.com/api';
+import axios from 'axios';
 
-//   static todayDate = new Date().toISOString().slice(0, 10);
+const day = new Date().toJSON().slice(0, 10).replace(/-/g, '-');
 
-//   static fetchCountries = async () => fetch(`${this.baseURL}/${this.todayDate}`)
-//   .then(async (response) => response.json()).then((response) =>
-//   ({ countryData: response.dates[todayDate].countries }));
+const fetchCountries = async () => {
+  const res = await axios.get(`https://api.covid19tracking.narrativa.com/api/${day}`);
+  return res.data;
+};
 
-//    {
-//     if (response.ok) {
-//       const data = await response.json();
-//       const requiredData = [];
+export const fetchRegions = async (region) => fetch(`https://api.covid19tracking.narrativa.com/api/${day}/country/${region}`)
+  .then((response) => response.json())
+  .then((response) => ({ countryData: response.dates[day].countries }));
 
-//       data.forEach((value) => {
-//         requiredData.push({
-//           id: value.id,
-//           name: value.name,
-//           today_confirmed: value.today_confirmed,
-//           today_deaths: value.today_deaths,
-//           today_recovered: value.today_recovered,
-//         });
-//       });
-//       return requiredData;
-//     }
-//     return null;
-//   });
-
-//   static fetchRegions = async (region) =>
-// fetch(`${this.baseURL}/${this.todayDate}/country/${region}`, {
-//     method: 'GET',
-//     headers: {
-//       'Content-type': 'application/json; charset=UTF-8',
-//     },
-//   }).then(async (response) => {
-//     if (response.ok) {
-//       const data = await response.json();
-//       const requiredData = [];
-
-//       data.forEach((value) => {
-//         requiredData.push({
-//           id: value.id,
-//           name: value.name,
-//           today_confirmed: value.today_confirmed,
-//           today_deaths: value.today_deaths,
-//           today_recovered: value.today_recovered,
-//         });
-//       });
-//       return requiredData;
-//     }
-//     return null;
-//   });
-// }
-// export default NarrativaAPI;
+export default fetchCountries;

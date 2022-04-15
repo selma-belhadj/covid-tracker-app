@@ -1,5 +1,5 @@
 // import NarrativaAPI from '../../API/narrativaApi';
-import fetchCountries from '../../API/narrativaAPIAxios';
+import fetchCountries from '../../API/narrativaAPI';
 
 const initialState = {};
 
@@ -9,7 +9,6 @@ const fetchAllCountries = () => async (dispatch) => {
   const data = await fetchCountries();
   console.log(data);
   if (data) {
-    console.log(data);
     dispatch({ type: GET_COUNTRIES, data });
   }
 };

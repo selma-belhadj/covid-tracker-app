@@ -4,7 +4,8 @@ import CountryCard from './CountryCard';
 import { fetchAllCountries } from '../redux/countries/countries';
 import Header from './Header';
 import Footer from './Footer';
-import './countriesList.css';
+import Navbar from './NavBar';
+import '../styles/countriesList.css';
 
 let totalInfected = 0;
 let countries = Object;
@@ -49,6 +50,7 @@ function Countries() {
 
   return (
     <div>
+      <Navbar page="Countries" />
       <Header title="Covid Around The World" total={`${totalInfected}`} />
       <div>
         <div className="searchDiv">

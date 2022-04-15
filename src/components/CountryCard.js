@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import './countriesList.css';
+import '../styles/countriesList.css';
 import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 
 function CountryCard({ country, confirmed, backgroudColorForCountry }) {
