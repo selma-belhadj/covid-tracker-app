@@ -17,7 +17,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](selmab-react-template.netlify.app)
+[Live Demo Link](https://selmab-covidtracker.netlify.app)
 
 
 ## Getting Started
