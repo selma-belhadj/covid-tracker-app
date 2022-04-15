@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import store from '../redux/configureStore';
-import Regions from '../components/regionsList';
+import Regions from '../components/RegionsList';
 
 describe('Regions', () => {
   it('renders correctly', () => {
