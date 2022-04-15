@@ -1,4 +1,4 @@
-import { fetchRegions } from '../../API/narrativaAPI';
+import { fetchRegions } from '../../API/CovidAPI';
 
 const initialState = {};
 

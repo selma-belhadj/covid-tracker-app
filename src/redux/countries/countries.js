@@ -1,4 +1,4 @@
-import fetchCountries from '../../API/narrativaAPI';
+import fetchCountries from '../../API/CovidAPI';
 
 const initialState = {};
 
