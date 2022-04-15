@@ -37,8 +37,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     `npm run eject`
 - Create build app\
     `npm run build`
-- Test Linters app\
-    `npm run check-linters`
+- run the tests app\
+    `npm run test`
 
 ## Authors
 
